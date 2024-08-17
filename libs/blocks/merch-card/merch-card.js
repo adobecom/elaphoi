@@ -362,7 +362,7 @@ const decorateFooterRows = (merchCard, footerRows) => {
     const footerRowsSlot = createTag('div', { slot: 'footer-rows' });
     footerRows.forEach((row) => {
       const rowIcon = row.firstElementChild?.querySelector('picture');
-      const rowText = row.querySelector('div > div:nth-child(2)').innerHTML;
+      const rowText = row.querySelector('div > div:nth-child(2)')?.innerHTML;
       const rowTextParagraph = createTag('div', { class: 'footer-row-cell-description' }, rowText);
       const footerRowCell = createTag('div', { class: 'footer-row-cell' });
       if (rowIcon) {
