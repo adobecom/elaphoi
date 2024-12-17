@@ -520,7 +520,7 @@ header.global-navigation {
 
   /* Brand block */
   .feds-brand-image + .feds-brand-label {
-    display: flex;
+    display: none;
   }
 
   .feds-topnav--overflowing .feds-brand-label:nth-child(2) {
