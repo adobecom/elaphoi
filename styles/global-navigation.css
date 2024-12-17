@@ -1092,3 +1092,11 @@ header.global-navigation {
   padding: 14px 20px;
   border-top: var(--feds-border-profile);
 }
+
+.feds-brand-label {
+display: none;
+}
+
+.feds-brand-image {
+width: 66px;
+}
