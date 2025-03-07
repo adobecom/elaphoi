@@ -1130,7 +1130,7 @@ width: 66px;
 }
 
 .feds-popup {
-  background-color: #fafafa;
+  background-color: #f3f3f3;
 }
 
 .gnav-promo {
@@ -1160,3 +1160,13 @@ width: 66px;
   color: rgb(39, 77, 234);
   padding: 0;
  }
+
+ .feds-utilities .feds-cta.feds-cta--secondary {
+  border-color: #DADADA !important;
+}
+
+.app-switcher {
+  margin: 12px;
+  display: flex;
+  align-items: center;
+}
