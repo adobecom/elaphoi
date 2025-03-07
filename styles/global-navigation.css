@@ -36,7 +36,7 @@ header.global-navigation {
   position: sticky;
   top: 0;
   z-index: 10;
-  background-color: var(--feds-background-nav--light);
+  background-color: #f8f8f8;
   box-sizing: content-box;
   overflow-x: clip;
 }
@@ -47,7 +47,7 @@ header.global-navigation {
   display: flex;
   justify-content: center;
   height: var(--feds-height-nav);
-  background-color: var(--feds-background-nav--light);
+  background-color: #f8f8f8;
 }
 
 .feds-topnav {
@@ -1104,3 +1104,55 @@ display: none;
 .feds-brand-image {
 width: 66px;
 }
+
+.feds-menu-section h5 {
+  margin-bottom: 12px;
+  padding: 12px 0;
+  position: static;
+  margin: 0 32px;
+  cursor: default;
+  border-bottom: 1px solid #e1e1e1;
+  color: var(--feds-color-headline);
+  font-weight: 600;
+  white-space: nowrap;
+  box-sizing: border-box;
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: #505050;
+}
+
+.feds-topnav-wrapper {
+  background-color: #f8f8f8;
+}
+
+.feds-popup {
+  background-color: #fafafa;
+}
+
+.gnav-promo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid #eaeaea;
+  background: #fff;
+  white-space: normal;
+  box-sizing: content-box;
+  width: 204px;
+  box-sizing: content-box;
+  padding: 24px 32px;
+}
+
+ .gnav-promo div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+ }
+
+ .gnav-promo .feds-navLink:hover {
+   background-color: unset;
+ }
+
+ header.global-navigation .gnav-promo a {
+  color: rgb(39, 77, 234);
+  padding: 0;
+ }
