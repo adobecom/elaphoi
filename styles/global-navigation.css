@@ -247,6 +247,10 @@ header.global-navigation {
   cursor: pointer;
 }
 
+.feds-product-entry-cta{
+  align-items: center;
+}
+
 .feds-topnav--overflowing .feds-cta {
   height: 30px;
   padding: 0 10px;
