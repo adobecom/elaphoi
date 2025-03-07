@@ -12,6 +12,10 @@
   cursor: pointer;
 }
 
+header.global-navigation .feds-topnav-wrapper {
+  height: 64px;
+}
+
 /* Curtain */
 .feds-curtain {
   position: fixed;
@@ -250,8 +254,8 @@ header.global-navigation {
 }
 
 .feds-cta--primary {
-  background-color: rgb(20, 115, 230);
-  border-color: rgb(20, 115, 230);
+  background-color: rgb(59, 99, 251);
+  border-color: rgb(59, 99, 251);
   color: rgb(255, 255, 255);
 }
 
