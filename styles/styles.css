@@ -1327,5 +1327,5 @@ main > .section[class*='-up'] > .content {
 }
 
 a.caas {
-  display: none;
+  visibility: hidden;
 }
