@@ -1326,3 +1326,6 @@ main > .section[class*='-up'] > .content {
   .section.masonry-layout .grid-span-11 {grid-column: span 11; }
 }
 
+a.caas {
+  display: none;
+}
