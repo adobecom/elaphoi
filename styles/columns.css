@@ -64,3 +64,37 @@
     padding: var(--spacing-xs);
   }
 }
+
+.verb-subfooter {
+  padding-bottom: 50px;
+}
+
+.verb-subfooter h3 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  padding-top: 25px;
+  margin-top: 0;
+}
+
+.verb-subfooter ul {
+  list-style-type: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.verb-subfooter ul li {
+  padding-top: 15px;
+}
+
+.verb-subfooter ul li a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #4b4b4b;
+  vertical-align: top;
+  padding-left: 10px;
+}
+
+.columns a {
+  text-decoration: underline;
+}
