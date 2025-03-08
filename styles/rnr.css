@@ -46,7 +46,7 @@
     padding: 0 0 0 5px;
     outline: none;
     appearance: none;
-    background-image: url('../../img/icons/star-outline.svg');
+    background-image: url('/lib/img/icons/star-outline.svg');
     background-size: 100%;
     background-repeat: no-repeat;
     width: 22px;
@@ -55,7 +55,7 @@
   }
   
   .rnr-rating-fieldset input.is-active {
-    background-image: url('./img/icons/star-filled.svg');
+    background-image: url('/lib/img/icons/star-outline.svg');
   }
   
   .rnr-rating-fieldset input.has-keyboard-focus {
