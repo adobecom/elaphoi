@@ -248,8 +248,7 @@ header.global-navigation {
 }
 
 .feds-product-entry-cta {
-  align-items: center;
-  display: block;
+  display: none;
 }
 
 .feds-topnav--overflowing .feds-cta {
@@ -502,6 +501,7 @@ header.global-navigation {
 
   .feds-product-entry-cta {
     display: flex;
+    align-items: center;
   }
 
   .feds-nav-wrapper {
