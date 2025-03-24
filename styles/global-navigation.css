@@ -247,8 +247,8 @@ header.global-navigation {
   cursor: pointer;
 }
 
-.feds-product-entry-cta{
-  align-items: center;
+.feds-product-entry-cta {
+  display: none;
 }
 
 .feds-topnav--overflowing .feds-cta {
@@ -497,6 +497,11 @@ header.global-navigation {
 
   .feds-toggle {
     display: none;
+  }
+
+  .feds-product-entry-cta {
+    display: flex;
+    align-items: center;
   }
 
   .feds-nav-wrapper {
